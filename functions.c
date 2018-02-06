@@ -619,7 +619,7 @@ void init() {
     p_module=Mix_LoadMUS_RW(p_rw_mod, array_module_size);
     Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, MIX_DEFAULT_CHANNELS, 4096);
     //
-    Mix_Init(MIX_INIT_MODPLUG);
+    Mix_Init(MIX_INIT_MOD);
     SDL_SetRelativeMouseMode(SDL_TRUE);
     lmb=0; first_fl=0;
     //
